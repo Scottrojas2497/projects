@@ -1,0 +1,55 @@
+/* CSS reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+fieldset,img { 
+	border:0;
+}
+ol,ul {
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+body{
+	background: red url(../images/wood_pattern.jpg) repeat;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+header{
+	text-align: center;
+	margin-top: 40px;
+}
+
+input{
+	/*background: #6699FF;*/
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+}
+
+p.codrops-demos{
+	text-align:center;
+	display: block;
+	padding: 14px;
+}
+
+p.codrops-demos a{
+	background-color: red;
+	border: 1px solid #ddd;
+	padding: 4px 10px 3px;
+}
+
+p.codrops-demos a.current-demo{
+	background-color: white;
+	border: 1px solid #ddd;
+	padding: 4px 10px 3px;
+}
+
+

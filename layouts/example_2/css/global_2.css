@@ -1,0 +1,44 @@
+body{
+	background:green;
+	margin: 0;
+}
+
+.wrapper{
+	background:#CCC;
+	
+	width: 720px;
+	height:600px;
+	margin: 0 auto;
+}
+
+.news{
+	height: 300px;
+	width: 360px;
+	background: purple;
+	float: left;
+}
+
+header{
+	height: 150px;
+	background: yellow;
+}
+
+.parts{
+	height:150px;
+	width:360px;
+	background: white;
+	float: right;
+}
+
+.reports{
+	height:150px;
+	width:360px;
+	background: red;
+	float: right;
+}
+
+footer{
+	height: 150px;
+	background: blue;
+	clear: both;
+}

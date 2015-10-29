@@ -1,0 +1,44 @@
+body{
+	background:blue;
+	margin: 0;
+}
+
+.wrapper{
+	background:#CCC;
+	
+	width: 720px;
+	height:600px;
+	margin: 0 auto;
+}
+
+header{
+	height: 25%;
+	background: yellow;
+}
+
+.news{
+	height: 50%;
+	width: 50%;
+	background: purple;
+	float: right;
+}
+
+.other{
+	height: 50%;
+	width: 50%;
+	background: red;
+	float: right;
+}
+
+.parts{
+	height:50%;
+	width:50%;
+	background: white;
+	float: left;
+}
+
+footer{
+	height: 25%;
+	background: green;
+	clear: both;
+}

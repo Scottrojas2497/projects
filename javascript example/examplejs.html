@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> JSON Example</title>
+		<!-- <link rel="stylesheet" type="text/css" href="css/global.css"/> -->
+		<script src="localhost/js/example_1.js"></script>
+	</head>	
+	<body>
+
+		<h2>Create Object from JSON </h2>
+
+		<p id="demo"></p>
+
+		<script type="text/javascript">
+            var obj = new Object();
+            var error = new Object();
+            $.getJSON('example_1.js').done(function (data) {
+                obj = data;
+                document.getElementById("demo").innerHTML = obj.firstName+ "<br>" + obj.lastName + "<br>" +;
+            }).error(function (err) {
+                error = err;
+            });
+
+        </script>
+	</body>
+</html>		

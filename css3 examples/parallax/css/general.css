@@ -1,0 +1,8 @@
+body{
+	background: #ddd url(../images/bg.jpg) repeat;
+	color: white;
+}
+
+.wrapper{
+	width: 100%;
+}

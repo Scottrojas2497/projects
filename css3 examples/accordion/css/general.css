@@ -1,0 +1,63 @@
+body{
+	background: white url(../images/bgnoise_lg.jpg);
+}
+
+h1{
+	text-align: center;
+	color: #5CB8E6;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+/* Header Style */
+.codrops-top{
+	line-height: 24px;
+	font-size: 11px;
+	background:red;
+	position: relative;
+}
+.codrops-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	display: block;
+	float: left;
+}
+.codrops-top a:hover{
+	background: #fff;
+}
+.codrops-top span.right{
+	float: right;
+}
+.codrops-top span.right a{
+	float: left;
+	display: block;
+}
+
+p.codrops-demos{
+	text-align:center;
+	display: block;
+	padding: 14px;
+}
+p.codrops-demos a, p.codrops-demos a.current-demo, p.codrops-demos a.current-demo:hover{
+    display: inline-block;
+	border: 1px solid #7FB2C1;
+	padding: 4px 10px 3px;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0px 3px;
+	font-weight: 800;
+	color: #fff;
+	background: #b0d4e3;
+}
+p.codrops-demos a:hover{
+	background: #80B8CE;
+}
+
+p.codrops-demos a.current-demo,p.codrops-demos a.current-demo:hover
+{
+	color: #3d7489;
+}

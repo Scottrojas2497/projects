@@ -1,0 +1,159 @@
+.sp-slideshow {
+    position: relative;
+	margin: 50px auto;
+	width: 80%;
+	max-width: 1000px;
+	min-width: 260px;
+	height: 460px;
+	border: 20px solid #FF6600;
+}
+
+.sp-content {
+    background: #7d7f72 url(../images/grid.png) repeat scroll 0 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.sp-parallax-bg {
+    background: url(../images/map.png) repeat-x ;
+    -webkit-background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.sp-slideshow input {
+    position: absolute;
+	bottom: 15px;
+	left: 50%;
+	width: 9px;
+	height: 9px;
+	z-index: 1001;
+	/*cursor: pointer;*/
+   /*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);*/
+    opacity: 0;
+}
+
+.sp-slideshow input + label {
+    position: absolute;
+    bottom: 15px;
+	left: 50%;
+    width: 5px;
+	height: 5px;
+	display: block;
+	z-index: 1;
+	border: 3px solid #FF6600;
+    border-radius: 10%;
+    transition: background-color linear 0.5s;
+}
+
+.sp-slideshow input:checked + label {
+	background-color: #fff;
+}
+
+.sp-selector-1, .button-label-1 {
+    margin-left: -36px;
+}
+
+.sp-selector-2, .button-label-2 {
+    margin-left: -18px;
+}
+
+.sp-selector-4, .button-label-4 {
+    margin-left: 18px;
+}
+
+.sp-selector-5, .button-label-5 {
+    margin-left: 36px;
+}
+
+.sp-arrow {
+    position: absolute;
+	top: 50%;
+	width: 28px;
+	height: 38px;	
+	margin-top: -19px;
+	display: none;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 1000;
+	background: transparent url(../images/arrows.png) no-repeat;
+    transition: opacity linear 0.3s;
+}
+.sp-arrow:hover{
+opacity: 1;
+}
+.sp-arrow:active{
+margin-top: -18px;
+}
+
+/*If the sp-selector=1 the background will stay at rigth and cover the right arrow*/
+.sp-selector-1:checked ~ .sp-arrow.sp-a2,.sp-selector-2:checked ~ .sp-arrow.sp-a3,.sp-selector-3:checked ~ .sp-arrow.sp-a4,.sp-selector-4:checked ~ .sp-arrow.sp-a5 {
+    right: 15px;
+	display: block;
+	background-position: top right;
+}
+
+/*If the sp-selector=1 the background will stay at left and cover the left arrow*/
+.sp-selector-2:checked ~ .sp-arrow.sp-a1,.sp-selector-3:checked ~ .sp-arrow.sp-a2,.sp-selector-4:checked ~ .sp-arrow.sp-a3,.sp-selector-5:checked ~ .sp-arrow.sp-a4 {
+    left: 15px;
+	display: block;
+	background-position: top left;
+}
+
+/*.sp-slideshow input:checked ~ .sp-content {
+    transition: background-position linear 0.6s, background-color linear 0.8s;
+}
+
+.sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {
+    transition: background-position linear 0.7s;
+}
+
+input.sp-selector-1:checked ~ .sp-content {
+    background-position: 0 0;
+background-color: #727b7f;
+}
+
+input.sp-selector-2:checked ~ .sp-content {
+    background-position: -100px 0;
+background-color: #7f7276;
+}
+
+input.sp-selector-3:checked ~ .sp-content {
+    background-position: -200px 0;
+background-color: #737f72;
+}
+
+input.sp-selector-4:checked ~ .sp-content {
+    background-position: -300px 0;
+background-color: #79727f;
+}
+
+input.sp-selector-5:checked ~ .sp-content {
+    background-position: -400px 0;
+background-color: #7d7f72;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {
+    background-position: 0 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -200px 0;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -400px 0;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -600px 0;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -800px 0;
+}*/

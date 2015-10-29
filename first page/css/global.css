@@ -1,0 +1,147 @@
+body{
+	background:gray;
+	margin: 0;
+}
+.wrapper{
+	background:white;
+	width:730px;
+	height:670px;
+	margin: 0 auto;
+}
+
+header{
+	margin-bottom:10px;
+	background:red url(../banner_top.jpg); 
+	width:730px;
+	height:72px;   
+}
+
+h1{
+	margin-left:283px;
+	margin-top:0px; 
+	padding-top:18px;
+	color:#378001;
+	font-family: helvetica;
+	font-size:30px;      
+}
+
+nav{
+	width:730px;
+	background-color:white;
+	margin-top:10px;
+	border-bottom: black 20px solid;  
+	margin-bottom:0px; 
+	border-top: gray 1px solid;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0 0 0 24px;
+    overflow:hidden;
+}
+
+li{
+	background:red url(../navBar_buttonBg.jpg);
+	color:white;  
+	float:left;
+	width:135px;
+	height:25px;
+	text-align:center;
+	padding-top: 10px;
+	margin-top:24px;     
+}
+
+
+.banner{
+	margin-bottom:0px; 
+}
+
+form{
+	float:right;
+	width:195px;
+	height:180px;
+	border: gray 1px solid;
+	text-align:left; 
+}
+
+.live{
+	display:block; 
+	width:520px;
+	height:95px;
+	float:left;
+	background-color:#F7F7F7;
+	border: gray 1px solid;  
+	margin-top:0px; 
+}
+
+.tickets{
+	display:block; 
+	width:520px;
+	height:85px;
+	float:left; 
+	background-color:#E5E5E5;
+	border: gray 1px solid;
+}
+
+.title{ 
+	float:right; 
+	width:125px;  
+	margin:0 30px 0 0;  
+}
+
+.titletickets{
+	float:left; 
+	width:125px;  
+	margin:0 0 0 200px; 
+}
+
+.imagefifa{
+	float: left;
+	display: block;
+	width:80px; 
+	margin: 2px 0 0px 25px;
+}
+
+.imagelogo{
+	margin: 3px 0 0 30px;
+	float: left;
+	display:block;
+	width:75px;  
+}
+
+label{
+	display:block;
+	font-size:12px;
+	margin:0 0 4px 9px;
+	font-style:bold;   
+}
+
+p{
+	width:400; 
+	font-size:12px;
+	margin-top:0;
+	margin-left:14px;
+	float:left;   
+}
+
+h5{
+	margin-left:7px;
+	margin-top:0px; 
+	margin-bottom:3px; 
+}
+
+input{
+	margin-left:7px;
+	margin-top:0;  
+}
+
+h4{
+	padding: 0 0 0 400px;
+}
+
+h2{
+	margin:10px 0 0 15px;
+	font-size:15px;   
+	color:#9C341F; 
+}

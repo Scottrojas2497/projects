@@ -1,0 +1,40 @@
+body{
+	background:#F00;
+	margin:0;
+}
+
+.wrapper{
+	background:#CCC;
+
+	width:720px;
+	height:600px;
+	margin:0 auto;
+	padding:auto;
+	left:50px;
+	right:50px;  
+}
+
+header{
+	width:500px;
+	height:200px; 
+	margin:0 auto;
+	background:green; 
+}
+
+.news{
+	
+	height:75px;
+	width:200px;
+	background: purple;
+	right:50px;
+	bottom:50px;
+}
+
+.search{
+	position:relative; 
+	height:75px;
+	width:200px;
+	background: blue;
+	top:50px;
+	left:50px;
+}
